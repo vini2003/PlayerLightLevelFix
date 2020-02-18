@@ -1,12 +1,12 @@
 {
 	"required": true,
-	"package": "shulkularity.mixin",
+	"package": "playerlightlevelfix.mixin",
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [
 	],
 	"client": [
-		"ShulkerBoxBlockEntityMixin",
-		"ShulkerBoxSlotMixin"
+		"InventoryScreenPopMixin",
+		"InventoryScreenPushMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
