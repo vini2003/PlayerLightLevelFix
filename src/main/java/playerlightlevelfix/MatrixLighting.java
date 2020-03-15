@@ -6,7 +6,7 @@ public class MatrixLighting {
 	public static Matrix4f getOn() {
 		Matrix4f matrix4f = new Matrix4f();
 		matrix4f.loadIdentity();
-		matrix4f.multiply(Matrix4f.scale(5F, -0.5F, 0.5F));
+		matrix4f.multiply(Matrix4f.scale(5F, -1.5F, 0.8F));
 		return matrix4f;
 	}
 
